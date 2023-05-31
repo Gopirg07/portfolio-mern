@@ -1,0 +1,5 @@
+#2d2e32 headings
+#767676 sub headings
+
+Poppins headings
+Mulish sub headings
