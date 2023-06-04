@@ -114,7 +114,9 @@ html {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 .icons {
+  cursor: pointer;
   height: 64px;
   width: 64px;
 }
@@ -157,6 +159,9 @@ html {
 }
 
 @media only screen and (max-width: 991.98px) {
+  .dropBox{
+    width:25%
+  }
   .project-img-div {
     margin-bottom: 50px;
   }

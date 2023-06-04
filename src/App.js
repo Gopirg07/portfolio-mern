@@ -38,13 +38,13 @@ import resume from "./Resume/Gopinath.R Resume MERN Final.pdf";
 
 import makeup from "./images/Makeup-Api.png";
 import crm from "./images/crm.png";
-import dashboard from "./images/dashboard.png";
+import dashboard from "./images/dashboard.png"; 
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Navbarr />
+      <div className="container"> 
+        <Navbarr/> 
 
         {/* HomePage */}
         <section id="home" className="">
