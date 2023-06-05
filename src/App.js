@@ -309,7 +309,7 @@ function App() {
           </section>
         </Fade>
         {/* Resume */}
-
+        <Fade bottom cascade>    
         <section id="resume">
           <h1 className="resume-heading">Resume</h1>
           <div className="resume-main">
@@ -331,6 +331,7 @@ function App() {
             </div>
           </div>
         </section>
+        </Fade>          
         <Fade bottom cascade></Fade>
         {/* Contact */}
         <Fade bottom cascade>
