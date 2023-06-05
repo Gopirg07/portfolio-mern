@@ -37,17 +37,16 @@ import resume from "./Resume/Gopinath.R Resume MERN Final.pdf";
 
 import makeup from "./images/Makeup-Api.png";
 import crm from "./images/crm.png";
-import dashboard from "./images/dashboard.png";
-import { Fade } from "react-reveal";
+import dashboard from "./images/dashboard.png"; 
+import CollapsibleExample from "./navi";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <Navbarr />
+        <Navbarr /> 
 
-        {/* HomePage */}
-        <Fade bottom cascade>
+        {/* HomePage */} 
           <section id="home" className="">
             <div className="row">
               <div className="home-wrap">
@@ -66,10 +65,8 @@ function App() {
             >
               Portfolio
             </Button>
-          </section>
-        </Fade>
-        {/* Portfolio */}
-        <Fade bottom cascade>
+          </section> 
+        {/* Portfolio */} 
           <section id="about" className="">
             <h1 className="about-heading">About</h1>
             <div className="row about-row">
@@ -90,10 +87,8 @@ function App() {
                 personal and organizaonal growth.
               </p>
             </div>
-          </section>
-        </Fade>
-        {/* Skills */}
-        <Fade bottom cascade>
+          </section> 
+        {/* Skills */} 
           <section id="skills">
             <h1 className="skills-heading">Skills</h1>
             <h5 className="skills-wrap-heading">
@@ -181,10 +176,8 @@ function App() {
                 </div>
               </div>
             </div>
-          </section>
-        </Fade>
-        {/* Projects */}
-        <Fade bottom cascade>
+          </section> 
+        {/* Projects */} 
           <section id="projects">
             <h1 className="projects-heading">Projects</h1>
             <div className="projects-wrap">
@@ -306,10 +299,9 @@ function App() {
                 </div>
               </div>
             </div>
-          </section>
-        </Fade>
+          </section> 
         {/* Resume */}
-        <Fade bottom cascade>    
+
         <section id="resume">
           <h1 className="resume-heading">Resume</h1>
           <div className="resume-main">
@@ -330,11 +322,8 @@ function App() {
               </Button>
             </div>
           </div>
-        </section>
-        </Fade>          
-        <Fade bottom cascade></Fade>
-        {/* Contact */}
-        <Fade bottom cascade>
+        </section> 
+        {/* Contact */} 
           <section id="contact">
             <h1 className="contact-heading">Contact</h1>
             <div className="contact-details">
@@ -355,8 +344,7 @@ function App() {
                 <EmailRoundedIcon /> gopinathofficial16@gmail.com{" "}
               </a>
             </div>
-          </section>
-        </Fade>
+          </section> 
       </div>
 
       {/* Footer */} 
