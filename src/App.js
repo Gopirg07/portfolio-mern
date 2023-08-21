@@ -37,8 +37,7 @@ import resume from "./Resume/Gopinath.R Resume MERN Final.pdf";
 
 import makeup from "./images/Makeup-Api.png";
 import crm from "./images/crm.png";
-import dashboard from "./images/dashboard.png"; 
-import CollapsibleExample from "./navi";
+import dashboard from "./images/dashboard.png";  
 
 function App() {
   return (
@@ -66,6 +65,7 @@ function App() {
               Portfolio
             </Button>
           </section> 
+
         {/* Portfolio */} 
           <section id="about" className="">
             <h1 className="about-heading">About</h1>
@@ -88,6 +88,7 @@ function App() {
               </p>
             </div>
           </section> 
+
         {/* Skills */} 
           <section id="skills">
             <h1 className="skills-heading">Skills</h1>
@@ -177,6 +178,7 @@ function App() {
               </div>
             </div>
           </section> 
+
         {/* Projects */} 
           <section id="projects">
             <h1 className="projects-heading">Projects</h1>
@@ -300,14 +302,14 @@ function App() {
               </div>
             </div>
           </section> 
-        {/* Resume */}
 
+        {/* Resume */}
         <section id="resume">
           <h1 className="resume-heading">Resume</h1>
           <div className="resume-main">
             <div className="resume-icons">
               <Button variant="outlined">
-                <a href={resume} target="_blank">
+                <a href="https://drive.google.com/file/d/1Qt-SRiI4ZUHdtWGP-76czeGH73U5tPF7/view?usp=sharing" target="_blank">
                   {" "}
                   View Resume <VisibilityRoundedIcon />
                 </a>
@@ -323,6 +325,7 @@ function App() {
             </div>
           </div>
         </section> 
+
         {/* Contact */} 
           <section id="contact">
             <h1 className="contact-heading">Contact</h1>
@@ -345,6 +348,7 @@ function App() {
               </a>
             </div>
           </section> 
+
       </div>
 
       {/* Footer */} 
