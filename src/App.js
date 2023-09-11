@@ -33,7 +33,7 @@ import mysql from "./images/skills/icons8-my-sql-240.png";
 import mongodb from "./images/skills/icons8-mongodb-240.png";
 import aws from "./images/skills/icons8-amazon-web-services-240.png";
 
-import resume from "./Resume/Gopinath.R Resume MERN Final.pdf";
+import resume from "./Resume/Gopinath MERN Resume.pdf";
 
 import mobile_store from "./images/mobile-store.png";
 import movie_review from "./images/movie-review.png";
@@ -270,46 +270,7 @@ function App() {
                 </div>
               );
             })}
-
-            {/* <div className="row project-each shadow">
-              <div className="project-img-div col-lg-6 shadow">
-                <img className="project-img" src={crm} alt="" />
-              </div>
-
-              <div className="project-text col-lg-4">
-                <h3 className="project-heading"> CRM App </h3>
-                <p className="project-exp">
-                  {" "}
-                  This Is A CRM MERN Stack Application Created For My Webcode
-                  Project. In This CRM Project We Can Create Leads & Contacts.
-                  For Now Its Only Limited To Create Leads & Contacts.{" "}
-                </p>
-                <div className="project-skills">
-                  <p className="skills shadow">React</p>
-                  <p className="skills shadow">Node</p>
-                  <p className="skills shadow">Express</p>
-                  <p className="skills shadow">MongoDb</p>
-                </div>
-                <div className="project-view">
-                  <a
-                    className="view"
-                    target="_blank"
-                    href="https://github.com/Gopirg07/crm-frontend"
-                  >
-                    {" "}
-                    Code <GitHubIcon />{" "}
-                  </a>
-                  <a
-                    className="view"
-                    target="_blank"
-                    href="https://gcrm-frontend.netlify.app/"
-                  >
-                    {" "}
-                    Live Demo <OpenInNewRoundedIcon />{" "}
-                  </a>
-                </div>
-              </div>
-            </div>  */}
+ 
           </div>
         </section>
 
@@ -320,7 +281,7 @@ function App() {
             <div className="resume-icons">
               <Button variant="outlined">
                 <a
-                  href="https://drive.google.com/file/d/1Qt-SRiI4ZUHdtWGP-76czeGH73U5tPF7/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1-I3mD1VdVc-bcuUUavg1E4SYai22SV-9/view?usp=sharing"
                   target="_blank"
                 >
                   {" "}
